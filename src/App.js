@@ -64,7 +64,12 @@ function App() {
   
     <div className="App d-flex align-center justify-content-center">
    
+              <div className='top'>
 
+
+
+              </div>
+              <div className='left'></div>
           <div className='form d-flex align-center justify-content-center '>
           <img src={logo} className='img'/>
             <div className='box '>
@@ -86,7 +91,8 @@ function App() {
               <span className='out  d-flex align-center justify-content-center'> {stringText}</span>
            
         </div>
-        <button className='btn btn-primary' onClick={handleClick}>نسخ</button>
+        <div className='right'></div>
+        <button className='btn' onClick={handleClick}>نسخ</button>
 <Footer/>
     </div>
   );
