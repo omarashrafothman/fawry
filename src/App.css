@@ -17,18 +17,6 @@ body{
 }
 
 
-.App img{
-
-  width: 100%;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-
-
-
-}
 
 .form{
 
@@ -36,11 +24,8 @@ body{
   position: absolute;
   top: 22%;
   left: 20%;
-  background-color: rgba(247, 247, 91, 0.638);
-  background-image: url(./images/images.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #ffd100;
+border: 3px solid #7e16339d;
   padding: 2rem;
   border-radius: .5rem;
   height: 60%;-webkit-box-shadow: 1px 10px 40px 8px rgba(189,189,189,1);
@@ -68,10 +53,23 @@ body{
 margin-top: 2rem;
 padding: .6rem 2rem;
 
+
+}
+.box h2{
+
+
+  color: #00668e;
+  font-weight: 800;
+}
+.img{
+
+  position: absolute;
+  margin-left: 43rem;
+  margin-top: -2rem;
 }
 .out{
 
-  background-color: #a09c9c80;
+  background-color: #a09c9c44;
   width: 70%;
   position: absolute;
   z-index: 2;
@@ -82,6 +80,8 @@ padding: .6rem 2rem;
   padding: 2rem;
   font-size: 1.7rem;
   border-radius: .4rem;
+  color: #00668e !important;
+  border: 2px solid #7e16334c;
 }
 
 footer{
@@ -95,6 +95,12 @@ bottom: 0;
 left: 0;
 
 }
+.btn{
+
+  position: absolute;
+  top: 76%;
+  padding: .5rem 2rem !important;    z-index: 5;
+}
 
 
 @media only screen and (max-width:576px) {
@@ -104,7 +110,7 @@ left: 0;
         width: 90%;
         left: 5%;
         height: 80%;
-        top: 10%;
+        top: 8%;
       }
       .box{
 
@@ -120,7 +126,16 @@ left: 0;
 
       width: 90%;
       left: 5%;
-      top:70%
+      top:67%
+      }
+      .img{
+
+      margin-left: -1rem;
+      margin-top: 10rem;
+     
+      }
+      .btn{
+margin-top: 5rem;
       }
 
       }
@@ -149,6 +164,16 @@ left: 0;
         left: 5%;
         top:70%
         }
+        .img{
+
+          margin-left: -1rem;
+          margin-top: 10rem;
+         
+          }
+          .btn{
+    margin-top: 2rem;
+
+          }
         
         
       }
@@ -179,4 +204,55 @@ left: 0;
         left: 5%;
         top:70%
       }
+
+
+      .img{
+
+        margin-left: -1rem;
+        margin-top: 10rem;
+       
+        }
+        .btn{
+  margin-top: 2rem;
+
+        }
+
+}
+@media only screen and  (max-width:1200px) {
+  
+  .form{
+
+    width: 90%;
+    left: 5%;
+    height: 80%;
+    top: 10%;
+  }
+  .box{
+
+    padding-top: 2rem;
+  }
+  .box input{
+
+  width: 90%;
+  margin-left: 5%;
+
+  }
+  .out{
+
+    width: 90%;
+    left: 5%;
+    top:70%
+  }
+
+  
+  .img{
+
+    margin-left: -1rem;
+    margin-top: 10rem;
+   
+    }
+    .btn{
+margin-top: 2rem;
+
+    }
 }
